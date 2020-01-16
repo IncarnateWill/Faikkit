@@ -2,36 +2,35 @@
 # Messages explanation: https://bitbucket.org/Prunt/restrictedcreative/wiki/Home#markdown-header-messages
 prefix: '&2&lCreative > '
 reloaded: '&aConfig reloaded!'
-no-permission: '&cYou don''t have enough permissions to do that!'
-no-console: '&cThis command can only be used in-game.'
-not-found: '&cPlayer %player% is not online!'
+no-permission: '&cNu ai voie sa folosesti aceasta comanda!'
+no-console: '&cAceasta comanda poate fi folosita doar in joc.'
+not-found: '&cPlayer %player% nu este online!'
 disabled:
-  general: '&cYou can''t do that in creative mode.'
-  interact: '&cYou can''t do that, because that was modified in creative mode.'
-  region: '&cYou can''t do that outside the allowed region.'
-  creature: '&cYou can''t do that, because a part of the creature was placed in creative
-    mode.'
+  general: '&cNu poti face asta in creative.'
+  interact: '&cNu poti face asta pentru ca acest block a fost pus din creative.'
+  region: '&cNu poti face asta in afara protectiei tale.'
+  creature: '&cNu poti invoca aceasta creatura deoarece are parti construite in Creative.'
 database:
-  load: '&ePlease wait! Loading data from database...'
-  loaded: '&eLoaded %blocks% blocks in %chunks% chunks from database!'
-  save: '&eSaving data to database...'
-  added: '&eAdded %blocks% new blocks to database.'
-  removed: '&eDeleted %blocks% old blocks from database.'
-  deleted: '&eDeleted database. Full restart is required for changes to take effect.'
-  done: '&aDone! Took %mills%ms'
+  load: '&eAsteapta! Se incarca din data de baze...'
+  loaded: '&eS-a incarcat %blocks% blocks in %chunks% chunks din baza de date!'
+  save: '&eSe salveaza in data de baze...'
+  added: '&eS-au adaugat %blocks% ca blocuri noi in baza de date.'
+  removed: '&eS-au sters %blocks% blockuri vechi din baza de date.'
+  deleted: '&eS-a sters data de baze.Un restart la server este necesar pentru a se aplica modificarile.'
+  done: '&aProces terminat! A durat %mills%ms'
 gamemodes:
   creative:
-    me: '&aSwitched to creative mode!'
-    other: '&aSwitched %player% to creative mode!'
+    me: '&aModul de joc a fost schimbat in creative!'
+    other: '&aModul de joc pentru %player% a fost schimbat in creative!'
   survival:
-    me: '&aSwitched to survival mode!'
-    other: '&aSwitched %player% to survival mode!'
+    me: '&aModul de joc a fost schimbat in survival!'
+    other: '&aModul de joc pentru %player% a fost schimbat in !'
   adventure:
-    me: '&aSwitched to adventure mode!'
-    other: '&aSwitched %player% to adventure mode!'
+    me: '&aModul de joc a fost schimbat in adventure!'
+    other: '&aModul de joc pentru  %player% a fost schimbat in adventure!'
   spectator:
-    me: '&aSwitched to spectator mode!'
-    other: '&aSwitched %player% to spectator mode!'
+    me: '&aModul de joc a fost schimbat in spectator!'
+    other: '&aModul de joc pentru %player% a fost schimbat in spectator!'
 usage:
   block: '&cCorrect usage: /rc block <add|remove|info|stats>'
 block:
